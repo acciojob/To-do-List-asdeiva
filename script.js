@@ -8,6 +8,7 @@ addBtn.addEventListener("click",()=>{
     if(input.value!=""){
         let list = `<li>${input.value}</li>`;
         todoList.innerHTML += list;
+        input.value = "";
     }
     else{
         alert("<<<--Please enter ToDo-->>>>")
