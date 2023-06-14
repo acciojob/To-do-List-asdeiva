@@ -10,7 +10,5 @@ addBtn.addEventListener("click",()=>{
         todoList.innerHTML += list;
         input.value = "";
     }
-    else{
-        alert("<<<--Please enter ToDo-->>>>")
-    }
+    
 })
